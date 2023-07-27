@@ -1,24 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pteh <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 15:47:43 by pteh              #+#    #+#             */
-/*   Updated: 2023/07/27 16:21:49 by pteh             ###   ########.fr       */
+/*   Updated: 2023/07/27 16:26:18 by pteh             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	ft_print_alphabet(void)
+int	ft_print_reverse_alphabet(void)
 {
-	char	a;
+	char	letter;
 
-	a = 96;
-	while (++a <= (96 + 26))
+	letter = 123;
+	while (--letter >= (123 - 26))
 	{
-		write(1, &a, 1);
+		write(1, &letter, 1);
 	}	
 }
