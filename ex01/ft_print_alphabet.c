@@ -6,13 +6,13 @@
 /*   By: pteh <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 15:47:43 by pteh              #+#    #+#             */
-/*   Updated: 2023/07/27 16:21:49 by pteh             ###   ########.fr       */
+/*   Updated: 2023/07/28 10:34:45 by pteh             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	ft_print_alphabet(void)
+void	ft_print_alphabet(void)
 {
 	char	a;
 

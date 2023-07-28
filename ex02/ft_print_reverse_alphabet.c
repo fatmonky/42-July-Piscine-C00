@@ -6,13 +6,13 @@
 /*   By: pteh <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 15:47:43 by pteh              #+#    #+#             */
-/*   Updated: 2023/07/27 16:26:18 by pteh             ###   ########.fr       */
+/*   Updated: 2023/07/28 10:35:22 by pteh             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	ft_print_reverse_alphabet(void)
+void	ft_print_reverse_alphabet(void)
 {
 	char	letter;
 

@@ -6,12 +6,12 @@
 /*   By: pteh <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 16:43:38 by pteh              #+#    #+#             */
-/*   Updated: 2023/07/27 17:34:00 by pteh             ###   ########.fr       */
+/*   Updated: 2023/07/28 10:36:53 by pteh             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include<unistd.h>
 
-int	ft_is_negative(int n)
+void	ft_is_negative(int n)
 {
 	char	a;
 

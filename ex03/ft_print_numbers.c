@@ -6,18 +6,18 @@
 /*   By: pteh <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/27 16:27:53 by pteh              #+#    #+#             */
-/*   Updated: 2023/07/27 17:11:17 by pteh             ###   ########.fr       */
+/*   Updated: 2023/07/28 10:35:55 by pteh             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<unistd.h>
 
-int	ft_print_numbers(void)
+void	ft_print_numbers(void)
 {
 	char	number;
 
 	number = 47;
-	while (number <= 57)
+	while (number < 57)
 	{
 		number++;
 		write(1, &number, 1);
